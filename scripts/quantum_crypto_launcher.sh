@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Quantum Breach CTF Toolkit Launcher
+# Quantum Crypto Toolkit Launcher
 
 logo() {
 cat << "EOF"
@@ -9,7 +9,7 @@ cat << "EOF"
     / / / / __ `/ ___/ ___/ / __ \/ __ \/ ___/
    / /_/ / /_/ (__  |__  ) / /_/ / /_/ (__  ) 
   /_____/\__,_/____/____/_/ .___/\____/____/  
-                         /_/   Quantum Breach
+                         /_/   Quantum Crypto Tools
 
 EOF
 }
@@ -22,7 +22,7 @@ check_deps() {
 }
 
 menu() {
-    echo "Choose a tool to run:"
+    echo "Choose a Quantum Crypto Tool to run:"
     echo " 01) ROT-N Brute Forcer"
     echo " 02) BaseN Auto Decoder"
     echo " 03) Python Escape Parser"
