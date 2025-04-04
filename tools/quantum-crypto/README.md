@@ -194,7 +194,14 @@ python3 otp_solver.py 6c73d5240a948c86981bc294814d 3b101c091d53320c000910<br>
   ➜ [+] Decoded message: SOS
   ```
 
-  
+  ### 15. 🔁 rot_cipher_tool.py
+- 📍 **Path**: `rot_cipher_tool.py`
+- 🌀 **Purpose**: Brute-force Caesar ciphers by rotating letters 1–25 positions. Essential for quick wins in classic crypto problems.
+- 🧰 **Usage**:
+  ```bash
+  python3 rot_cipher_tool.py "Uifsf jt b gmbh!"
+  ```
+
   
 
   
