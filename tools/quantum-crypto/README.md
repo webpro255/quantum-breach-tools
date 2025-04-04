@@ -249,6 +249,17 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
   ➜ [+] Detected hex → Hello
   ```
 
+### 20. 🔊 signal_lsb_decoder.py
+- 📍 **Path**: `signal_lsb_decoder.py`
+- 🧠 **Purpose**: Extracts binary data hidden in the Least Significant Bit of .wav audio files. Optionally decodes to ASCII.
+- 📦 Requires: `scipy`, `numpy`
+- 🧰 **Usage**:
+- Only processes mono/stereo PCM .wav
+  ```bash
+  python3 signal_lsb_decoder.py song.wav
+  python3 signal_lsb_decoder.py song.wav --ascii
+  ```
+  
 
 
   
