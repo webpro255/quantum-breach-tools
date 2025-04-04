@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Setup script for Quantum Crypto Tools and Other Tools
+# Setup script for Quantum Crypto Tools 
 
 echo "[*] Setting up Quantum Breach Tools..."
 
