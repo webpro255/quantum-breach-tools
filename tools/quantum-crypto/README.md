@@ -59,6 +59,25 @@ n = 3 5
 a = 2 3
 <br>➜ Output: x ≡ 8 mod 15</br>
 
+### 5. 🔓 rsa_low_exponent.py
+- 📍 **Path**: `rsa_low_exponent.py`
+- 🧨 **Purpose**: Exploits small public exponents in RSA (typically e=3) when the message is small and unpadded.
+- 📘 **Theory**: If `m^e < n`, then `c = m^e` and m = c^(1/e)
+- 🧰 **Usage**:
+  ```bash
+  python3 rsa_low_exponent.py <ciphertext> <e> <n>
+
+#### Purpose:
+Cracks RSA when a small public exponent (e = 3) is used with no padding and the plaintext is small enough that:
+c = m^e < n
+#### Example 
+python3 rsa_low_exponent.py 948221 3 13264529
+<br>➜ Output:</br>
+Recovered message (decimal): 453
+ASCII message: E
+
+
+
 
 
 
