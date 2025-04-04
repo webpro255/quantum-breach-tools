@@ -279,6 +279,17 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
   ➜ Decoded: AFKQV
   ```
 
+  ### 23. 🛤 rail_fence_decoder.py
+- 📍 **Path**: `rail_fence_decoder.py`
+- 🧠 **Purpose**: Decrypts Rail Fence (zigzag) cipher text.
+- 🧰 **Usage**:
+  ```bash
+  python3 rail_fence_decoder.py "WECRLTEERDSOEEFEAOCAIVDEN" 3
+  ➜ Decoded: WEAREDISCOVEREDFLEEATONCE
+  ```
+
+
+
 
 
 
