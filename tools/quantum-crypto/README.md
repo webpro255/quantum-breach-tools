@@ -177,6 +177,15 @@ python3 image_lsb_extractor.py secret.png --ascii<br>
 python3 otp_solver.py 6c73d5240a948c86981bc294814d 3b101c091d53320c000910<br>
 ➜ XOR result (ASCII): W..R.C...B...Y.</br>
 
+### 13. 🐍 python_escape_parser.py
+- 📍 **Path**: `python_escape_parser.py`
+- 🧠 **Purpose**: Decodes Python-style escaped strings like `\\x41`, `\\u0042`, etc. Great for reversing obfuscated payloads or memory strings.
+- 🧰 **Usage**:
+  ```bash
+  python3 python_escape_parser.py "\\\\x66\\\\x6c\\\\x61\\\\x67"
+  ➜ [+] Decoded: flag
+
+  
 
 
 
