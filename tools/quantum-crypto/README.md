@@ -90,6 +90,19 @@ python3 lfsr_solver.py 100101100110111
 [+] LFSR Length: 6 <br>
 [+] Feedback Polynomial Coefficients: [1, 0, 1, 1, 0, 0, 1]</br>
 
+### 7. 🔢 base_converter.py
+- 📍 **Path**: `base_converter.py`
+- 🧰 **Purpose**: Converts data between base64, hex, decimal, and binary. Useful in encoding/decoding challenges.
+- 🧪 **Usage**:
+  ```bash
+  python3 base_converter.py <value> <from_base> <to_base>
+
+#### Example
+python3 base_converter.py TWF0aA== base64 hex
+➜ 4d617468
+
+python3 base_converter.py deadbeef hex base64
+➜ 3q2+7w==
 
 
 
