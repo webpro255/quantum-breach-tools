@@ -215,6 +215,18 @@ python3 otp_solver.py 6c73d5240a948c86981bc294814d 3b101c091d53320c000910<br>
 ➜ Decrypted: The quick brown fox jumps over...</br>
 
 
+### 17. 🧠 substitution_solver.py
+- 📍 **Path**: `substitution_solver.py`
+- 🧩 **Purpose**: Aids in solving monoalphabetic substitution ciphers using frequency analysis and auto key mapping.
+- 🧰 **Usage**:
+  ```bash
+  python3 substitution_solver.py "<ciphertext>"
+  ```
+#### Example 
+python3 substitution_solver.py "XLMW MW E XST!"<br>
+➜ Mapping: X→T, L→H, M→E, W→R...<br>
+➜ Decrypted: "THIS IS A TOP!"</br>
+
 
 
   
