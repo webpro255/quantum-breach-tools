@@ -154,6 +154,19 @@ python3 ascii_to_int.py hex2ascii 48656c6c6f
 ➜ Hello
 
 
+### 11. 🖼 image_lsb_extractor.py
+- 📍 **Path**: `image_lsb_extractor.py`
+- 🔍 **Purpose**: Extracts hidden LSB (Least Significant Bit) data from images — great for Stego and Forensics CTFs.
+- 📦 Requires: `Pillow` (install via `pip install pillow`)
+- 🧰 **Usage**:
+  ```bash
+  python3 image_lsb_extractor.py <image_path> [--bits <1-8>] [--ascii]
+
+#### Example
+python3 image_lsb_extractor.py secret.png --ascii<br>
+➜ Hidden message: "FLAG{pixels_hide_truth}"</br>
+
+
 
 
 
