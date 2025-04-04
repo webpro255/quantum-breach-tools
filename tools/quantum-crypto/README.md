@@ -306,6 +306,17 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
   ➜ Decoded: THEREISAFLAG
   ```
 
+### 26. 📜 wordlist_gen.py
+- 📍 **Path**: `wordlist_gen.py`
+- ⚙️ **Purpose**: Generates a brute-force wordlist using optional prefix and character length.
+- 🧰 **Usage**:
+  ```bash
+  python3 wordlist_gen.py "admin" 1 2
+  ➜ admina
+     adminb
+     ...
+  ```
+
 
 
 
