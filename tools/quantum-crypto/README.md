@@ -240,6 +240,15 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
 ➜ ASCII message: E</br>
 
 
+### 19. 📜 base_n_decoder.py
+- 📍 **Path**: `base_n_decoder.py`
+- 🔍 **Purpose**: Automatically detects and decodes data encoded in base64, hex, binary, or decimal — useful for quick triage of payloads in forensics and web CTFs.
+- 🧰 **Usage**:
+  ```bash
+  python3 base_n_decoder.py "48656c6c6f"
+  ➜ [+] Detected hex → Hello
+  ```
+
 
 
   
