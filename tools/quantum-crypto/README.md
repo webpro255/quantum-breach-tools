@@ -76,6 +76,24 @@ python3 rsa_low_exponent.py 948221 3 13264529
 Recovered message (decimal): 453
 ASCII message: E
 
+### 6. 🧬 lfsr_solver.py
+- 📍 **Path**: `lfsr_solver.py`
+- ⚙️ **Purpose**: Uses the Berlekamp-Massey algorithm to reverse engineer a Linear Feedback Shift Register (LFSR) from a binary keystream.
+- 🧰 **Usage**:
+  ```bash
+  python3 lfsr_solver.py <binary_string>
+
+#### Example 
+python3 lfsr_solver.py 100101100110111
+<br>
+➜ Output:</br>
+[+] LFSR Length: 6 <br>
+[+] Feedback Polynomial Coefficients: [1, 0, 1, 1, 0, 0, 1]</br>
+
+
+
+
+
 
 
 
