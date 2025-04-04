@@ -202,7 +202,20 @@ python3 otp_solver.py 6c73d5240a948c86981bc294814d 3b101c091d53320c000910<br>
   python3 rot_cipher_tool.py "Uifsf jt b gmbh!"
   ```
 
-  
+  ### 16. 🧬 repeating_xor_solver.py
+- 📍 **Path**: `repeating_xor_solver.py`
+- 🔑 **Purpose**: Detects and breaks repeating-key XOR (e.g., Vigenère). Tries top 3 key lengths and prints partial plaintexts.
+- 🧰 **Usage**:
+  ```bash
+  python3 repeating_xor_solver.py <hex_encoded_cipher>
+  ```
+  #### Example
+  python3 repeating_xor_solver.py 2b31342b31342b7a6d73636e<br>
+➜ Key guess: FLAG<br>
+➜ Decrypted: The quick brown fox jumps over...</br>
+
+
+
 
   
 
