@@ -33,6 +33,7 @@ This toolkit is maintained by the **Quantum Breach** CTF team and built from the
 - 🧰 **Usage**:
   ```bash
   python3 rsa_common_modulus.py <n> <e1> <e2> <c1> <c2>
+  ```
 
 #### Example
 python3 rsa_common_modulus.py 3233 17 13 855 820
@@ -43,6 +44,7 @@ python3 rsa_common_modulus.py 3233 17 13 855 820
 - 🧰 **Usage**:
   ```bash
   python3 xor_cracker.py <hex_string>
+  ```
 
 #### Example
 python3 xor_cracker.py 1b37373331363f78151b7f2b783431333d78397828372d36
@@ -66,6 +68,7 @@ a = 2 3
 - 🧰 **Usage**:
   ```bash
   python3 rsa_low_exponent.py <ciphertext> <e> <n>
+  ```
 
 #### Purpose:
 Cracks RSA when a small public exponent (e = 3) is used with no padding and the plaintext is small enough that:
@@ -82,6 +85,7 @@ ASCII message: E
 - 🧰 **Usage**:
   ```bash
   python3 lfsr_solver.py <binary_string>
+  ```
 
 #### Example 
 python3 lfsr_solver.py 100101100110111
@@ -96,6 +100,7 @@ python3 lfsr_solver.py 100101100110111
 - 🧪 **Usage**:
   ```bash
   python3 base_converter.py <value> <from_base> <to_base>
+  ```
 
 #### Example
 python3 base_converter.py TWF0aA== base64 hex
@@ -112,6 +117,7 @@ python3 base_converter.py deadbeef hex base64
   ```bash
   python3 rsa_factor_db.py <n>
   python3 rsa_factor_db.py <n> <e> <c>
+  ```
 
 #### Example
 python3 rsa_factor_db.py 3233
@@ -126,11 +132,26 @@ python3 rsa_factor_db.py 3233 17 855
 - 🧰 **Usage**:
   ```bash
   python3 wiener_attack.py <e> <n> <c>
+  ```
 
 #### Example 
 python3 wiener_attack.py 17993 90581 77599 <br>
 ➜ Found d: 157<br>
 ➜ Decrypted message: FLAG{wiener_vuln}</br>
+
+### 10. 🧾 ascii_to_int.py
+- 📍 **Path**: `ascii_to_int.py`
+- 📦 **Purpose**: Converts between ASCII, Hex, Decimal, and Binary. Great for encoding/decoding in Web, Crypto, and Reversing challenges.
+- 🧰 **Usage**:
+  ```bash
+  python3 ascii_to_int.py <direction> <value>
+  ```
+  #### Example 
+python3 ascii_to_int.py ascii2hex Hello
+➜ 48656c6c6f
+
+python3 ascii_to_int.py hex2ascii 48656c6c6f
+➜ Hello
 
 
 
