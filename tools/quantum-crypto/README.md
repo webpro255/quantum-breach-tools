@@ -104,6 +104,22 @@ python3 base_converter.py TWF0aA== base64 hex
 python3 base_converter.py deadbeef hex base64
 ➜ 3q2+7w==
 
+### 8. 🔏 rsa_factor_db.py
+- 📍 **Path**: `rsa_factor_db.py`
+- 🔓 **Purpose**: Uses FactorDB.com API to factor RSA modulus `n`, and optionally decrypt the ciphertext if `e` and `c` are provided.
+- 📦 Requires: `requests` and `pycryptodome`
+- 🧰 **Usage**:
+  ```bash
+  python3 rsa_factor_db.py <n>
+  python3 rsa_factor_db.py <n> <e> <c>
+
+#### Example
+python3 rsa_factor_db.py 3233
+➜ Factors of n: [61, 53]
+
+python3 rsa_factor_db.py 3233 17 855
+➜ Decrypted message: b'E'
+
 
 
 
