@@ -120,6 +120,18 @@ python3 rsa_factor_db.py 3233
 python3 rsa_factor_db.py 3233 17 855
 ➜ Decrypted message: b'E'
 
+### 9. 🔑 wiener_attack.py
+- 📍 **Path**: `wiener_attack.py`
+- 🕵️‍♂️ **Purpose**: Attempts Wiener's attack on RSA when the private exponent `d` is too small.
+- 🧰 **Usage**:
+  ```bash
+  python3 wiener_attack.py <e> <n> <c>
+
+#### Example 
+python3 wiener_attack.py 17993 90581 77599 <br>
+➜ Found d: 157<br>
+➜ Decrypted message: FLAG{wiener_vuln}</br>
+
 
 
 
