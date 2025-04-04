@@ -37,6 +37,16 @@ This toolkit is maintained by the **Quantum Breach** CTF team and built from the
 #### Example
 python3 rsa_common_modulus.py 3233 17 13 855 820
 
+### 3. 🧪 xor_cracker.py
+- 📍 **Path**: `xor_cracker.py`
+- 🔓 **Purpose**: Cracks single-byte XOR-encrypted strings using English frequency scoring.
+- 🧰 **Usage**:
+  ```bash
+  python3 xor_cracker.py <hex_string>
+#### Example
+python3 xor_cracker.py 1b37373331363f78151b7f2b783431333d78397828372d36
+
+
 
 
 
