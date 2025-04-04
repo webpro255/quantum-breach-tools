@@ -297,6 +297,15 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
   ➜ Decrypted: ATTACKATDAWN
   ```
 
+### 25. 🔢 a1z26_decoder.py
+- 📍 **Path**: `a1z26_decoder.py`
+- 🔡 **Purpose**: Converts space- or comma-separated numbers to letters (e.g., 1=A, 2=B).
+- 🧰 **Usage**:
+  ```bash
+  python3 a1z26_decoder.py "20 8 5 18 5 9 19 1 6 12 1 7"
+  ➜ Decoded: THEREISAFLAG
+  ```
+
 
 
 
