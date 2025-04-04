@@ -259,7 +259,18 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
   python3 signal_lsb_decoder.py song.wav
   python3 signal_lsb_decoder.py song.wav --ascii
   ```
-  
+
+### 21. 🔁 caesar_tool.py
+- 📍 **Path**: `caesar_tool.py`
+- 🔄 **Purpose**: Encrypts or decrypts text using Caesar cipher with a user-defined shift.
+- 🧰 **Usage**:
+  ```bash
+  python3 caesar_tool.py "There is a flag" 3
+  python3 caesar_tool.py "Wkhuh lv d Iodj" -3
+  ```
+
+
+
 
 
   
