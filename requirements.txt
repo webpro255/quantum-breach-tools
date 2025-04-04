@@ -1,0 +1,7 @@
+# General dependencies for all tools
+numpy
+pycryptodome
+requests
+matplotlib
+beautifulsoup4
+sqlalchemy
