@@ -227,6 +227,19 @@ python3 substitution_solver.py "XLMW MW E XST!"<br>
 ➜ Mapping: X→T, L→H, M→E, W→R...<br>
 ➜ Decrypted: "THIS IS A TOP!"</br>
 
+### 18. 🔐 rsa_crt_recover.py
+- 📍 **Path**: `rsa_crt_recover.py`
+- ⚡ **Purpose**: Uses Chinese Remainder Theorem (CRT) for efficient RSA decryption when `p`, `q`, and `d` are known.
+- 🧰 **Usage**:
+  ```bash
+  python3 rsa_crt_recover.py <c> <d> <p> <q>
+  ```
+#### Example 
+python3 rsa_crt_recover.py 855 157 61 53<br>
+➜ Recovered message (decimal): 69<br>
+➜ ASCII message: E</br>
+
+
 
 
   
