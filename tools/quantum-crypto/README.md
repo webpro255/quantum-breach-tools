@@ -288,6 +288,15 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
   ➜ Decoded: WEAREDISCOVEREDFLEEATONCE
   ```
 
+### 24. 🔑 vigenere_solver.py
+- 📍 **Path**: `vigenere_solver.py`
+- 🔐 **Purpose**: Decrypts text using a provided Vigenère cipher key.
+- 🧰 **Usage**:
+  ```bash
+  python3 vigenere_solver.py "LXFOPVEFRNHR" "LEMON"
+  ➜ Decrypted: ATTACKATDAWN
+  ```
+
 
 
 
