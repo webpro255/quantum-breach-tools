@@ -263,11 +263,22 @@ python3 rsa_crt_recover.py 855 157 61 53<br>
 ### 21. 🔁 caesar_tool.py
 - 📍 **Path**: `caesar_tool.py`
 - 🔄 **Purpose**: Encrypts or decrypts text using Caesar cipher with a user-defined shift.
+- **Input** must be space-separated 2-digit pairs
 - 🧰 **Usage**:
   ```bash
   python3 caesar_tool.py "There is a flag" 3
   python3 caesar_tool.py "Wkhuh lv d Iodj" -3
   ```
+
+### 22. 🧮 polybius_decoder.py
+- 📍 **Path**: `polybius_decoder.py`
+- 🔐 **Purpose**: Decodes a Polybius square cipher using a 5×5 grid (I/J combined).
+- 🧰 **Usage**:
+  ```bash
+  python3 polybius_decoder.py "11 21 31 41 51"
+  ➜ Decoded: AFKQV
+  ```
+
 
 
 
