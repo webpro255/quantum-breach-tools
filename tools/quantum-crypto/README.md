@@ -184,6 +184,18 @@ python3 otp_solver.py 6c73d5240a948c86981bc294814d 3b101c091d53320c000910<br>
   ```bash
   python3 python_escape_parser.py "\\\\x66\\\\x6c\\\\x61\\\\x67"
   ➜ [+] Decoded: flag
+  ```
+### 14. 🎭 morse_decoder.py
+- 📍 **Path**: `morse_decoder.py`
+- 🪙 **Purpose**: Converts Morse code (using `.`, `-`, and `/`) into readable ASCII text. Great for forensics and stego-style challenges.
+- 🧰 **Usage**:
+  ```bash
+  python3 morse_decoder.py "... --- ..."
+  ➜ [+] Decoded message: SOS
+  ```
+
+  
+  
 
   
 
