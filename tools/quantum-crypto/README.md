@@ -166,6 +166,18 @@ python3 ascii_to_int.py hex2ascii 48656c6c6f
 python3 image_lsb_extractor.py secret.png --ascii<br>
 ➜ Hidden message: "FLAG{pixels_hide_truth}"</br>
 
+### 12. 🔑 otp_solver.py
+- 📍 **Path**: `otp_solver.py`
+- 🔐 **Purpose**: XORs two ciphertexts encrypted with the same One-Time Pad key to recover XORed plaintext. Common vulnerability when OTP is reused.
+- 🧰 **Usage**:
+  ```bash
+  python3 otp_solver.py <hex_cipher1> <hex_cipher2>
+
+#### Example
+python3 otp_solver.py 6c73d5240a948c86981bc294814d 3b101c091d53320c000910<br>
+➜ XOR result (ASCII): W..R.C...B...Y.</br>
+
+
 
 
 
